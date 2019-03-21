@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         
         count = count + 1
         myLabel.text = "버튼 A을 누르셨습니다."
+        if(count > 9){
+            count = 0
+        }
         Labelc.text = String(count)
     }
     
